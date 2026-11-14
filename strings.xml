@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Game-Reader</string>
+
+    <string name="descripcion_servicio">Lee en voz alta el texto de los juegos que elijas, incluso de los que no son accesibles, con la voz predeterminada de tu teléfono. Para ello necesita ver el contenido de la pantalla y hacer capturas. También puede tocar la pantalla, pero solo cuando se lo pides con los botones o las teclas del lector. El texto se reconoce en el propio teléfono y la app no envía capturas ni textos a ningún servidor. Puedes apagarlo y encenderlo cuando quieras desde el botón flotante, los ajustes rápidos o la propia app.</string>
+
+    <!-- Pantalla principal -->
+    <string name="main_intro">Lee en voz alta el texto de tus juegos con la voz que ya usa tu teléfono. Puede estar activo a la vez que TalkBack u otro lector: solo habla dentro de los juegos que elijas.</string>
+    <string name="estado_sin_servicio">El servicio de accesibilidad todavía no está activado. Pulsa el botón de abajo, busca «Game-Reader» en la lista y actívalo.</string>
+    <string name="estado_encendido">El lector está ENCENDIDO.</string>
+    <string name="estado_apagado">El lector está APAGADO. El servicio sigue activado, pero no habla.</string>
+    <string name="boton_activar_servicio">Activar el servicio de accesibilidad</string>
+    <string name="boton_apagar_lector">Apagar el lector</string>
+    <string name="boton_encender_lector">Encender el lector</string>
+    <string name="abrir_accesibilidad">Abrir los ajustes de accesibilidad</string>
+    <string name="ayuda_restringidos">El interruptor sale atenuado: permitir ajustes restringidos</string>
+    <string name="aviso_android_antiguo">Tu versión de Android es anterior a la 11, así que no se puede reconocer texto en capturas de pantalla (OCR). Solo se leerán los textos que el propio juego ofrezca a la accesibilidad.</string>
+    <string name="sec_herramientas">Herramientas</string>
+    <string name="probar_voz">Probar la voz</string>
+    <string name="texto_prueba">Hola. Así suena Game-Reader con tu voz predeterminada.</string>
+    <string name="voz_no_lista">La voz del sistema todavía no está lista. Comprueba que tienes instalado un motor de síntesis de voz.</string>
+    <string name="voz_idioma_no_instalado">No tienes instalada la voz de este idioma. Puedes instalarla en los ajustes del motor de voz.</string>
+    <string name="no_se_pudo_abrir">No se pudo abrir esa pantalla de ajustes.</string>
+    <string name="desconocido">desconocido</string>
+    <string name="si">Sí</string>
+    <string name="no">No</string>
+    <string name="version">Versión %1$s</string>
+
+    <!-- Lista de juegos -->
+    <string name="juegos_titulo">Elegir juegos</string>
+    <string name="juegos_intro">Marca los juegos en los que quieres que el lector hable. En el resto de apps se mantendrá en silencio. Mantén pulsado un juego para darle ajustes propios: zona de pantalla, rapidez y lectura automática.</string>
+    <string name="juegos_marcar_detectados">Marcar los juegos detectados automáticamente</string>
+    <string name="juegos_quitar_todos">Quitar todas las marcas</string>
+    <string name="juegos_cargando">Cargando aplicaciones…</string>
+    <string name="juego_detectado">juego detectado</string>
+
+    <!-- Frases que dice el lector -->
+    <string name="hablar_listo">Lector listo.</string>
+    <string name="hablar_activado">Lector activado.</string>
+    <string name="hablar_apagado">Lector apagado.</string>
+    <string name="hablar_juego">Juego: %1$s.</string>
+    <string name="hablar_sin_texto">No encuentro texto en la pantalla.</string>
+    <string name="hablar_sin_captura">No puedo capturar la pantalla de este juego. Puede estar protegida.</string>
+
+    <!-- Botón flotante -->
+    <string name="boton_ventana">Controles de Game-Reader</string>
+    <string name="boton_leer">Leer la pantalla ahora</string>
+    <string name="boton_apagar">Apagar Game-Reader</string>
+    <string name="boton_encender">Encender Game-Reader</string>
+
+    <!-- Mosaico de ajustes rápidos -->
+    <string name="tile_sin_servicio">Servicio sin activar</string>
+    <string name="tile_encendido">Encendido</string>
+    <string name="tile_apagado">Apagado</string>
+
+    <!-- Voces -->
+    <string name="voz_en_linea">necesita internet</string>
+    <string name="voz_sin_conexion">sin conexión</string>
+
+    <!-- Ajustes: general -->
+    <string name="ajustes_titulo">Ajustes</string>
+    <string name="sec_general">General</string>
+    <string name="aj_solo_juegos">Hablar solo en los juegos elegidos</string>
+    <string name="aj_solo_juegos_desc">Recomendado si usas TalkBack, para que no hablen los dos a la vez. Si lo apagas, el lector hablará en cualquier app.</string>
+    <string name="aj_elegir_juegos">Elegir juegos…</string>
+    <string name="aj_boton_modo">Botón flotante</string>
+    <string name="aj_boton_tam">Tamaño del botón flotante</string>
+    <string name="aj_boton_alfa">Opacidad del botón flotante</string>
+    <string name="aj_accion_acc">Botón de accesibilidad de la barra de navegación</string>
+    <string name="aj_vibrar">Vibrar al encender o apagar</string>
+    <string name="aj_vibrar_desc">Una vibración corta confirma el cambio sin tener que mirar la pantalla.</string>
+    <string name="aj_anunciar_juego">Decir el nombre del juego al entrar</string>
+    <string name="aj_anunciar_juego_desc">Así sabes que el lector ha reconocido el juego.</string>
+
+    <!-- Ajustes: voz -->
+    <string name="sec_voz">Voz</string>
+    <string name="aj_idioma">Idioma de la voz</string>
+    <string name="aj_elegir_voz">Elegir una voz concreta</string>
+    <string name="aj_voz_actual">Voz: %1$s. Toca para cambiarla</string>
+    <string name="aj_voz_auto">automática</string>
+    <string name="aj_velocidad">Velocidad de la voz</string>
+    <string name="aj_tono">Tono de la voz</string>
+    <string name="aj_volumen">Volumen de la voz</string>
+    <string name="aj_bajar_juego">Bajar el volumen del juego mientras habla</string>
+    <string name="aj_bajar_juego_desc">El sonido del juego se atenúa unos instantes para que se te entienda.</string>
+    <string name="aj_interrumpir">Cortar la frase anterior si hay texto nuevo</string>
+    <string name="aj_interrumpir_desc">Mantiene la lectura al día en juegos rápidos. Si lo apagas, las frases esperan su turno.</string>
+    <string name="aj_salida">Salida de voz</string>
+    <string name="aj_probar">Probar la voz</string>
+    <string name="aj_motor_cargando">Motor de voz del sistema: comprobando…</string>
+    <string name="aj_motor_actual">Motor de voz del sistema: %1$s</string>
+    <string name="aj_motor_error">No se pudo iniciar el motor de voz del sistema. Revisa que tengas uno instalado.</string>
+    <string name="aj_cambiar_motor">Cambiar el motor de voz del sistema</string>
+
+    <!-- Ajustes: qué leer -->
+    <string name="sec_leer">Qué leer y cuándo</string>
+    <string name="aj_lectura_auto">Lectura automática de texto nuevo</string>
+    <string name="aj_lectura_auto_desc">Si lo apagas, solo leerá cuando pulses «Leer la pantalla ahora».</string>
+    <string name="aj_intervalo">Revisar la pantalla cada</string>
+    <string name="aj_fuente">De dónde sale el texto</string>
+    <string name="aj_zona">Zona de la pantalla que se lee</string>
+    <string name="aj_leer_numeros">Volver a leer cuando solo cambian los números</string>
+    <string name="aj_leer_numeros_desc">Apagado: no repite marcadores, tiempos o vidas que cambian sin parar. «Leer la pantalla ahora» siempre lo dice todo.</string>
+    <string name="aj_min_car">Ignorar textos de menos de</string>
+
+    <!-- Ajustes: ayuda -->
+    <string name="sec_ayuda">Ayuda y mantenimiento</string>
+    <string name="aj_restablecer">Restablecer ajustes</string>
+    <string name="aj_restablecer_pregunta">Todos los ajustes volverán a sus valores originales. La lista de juegos no se borra. ¿Continuar?</string>
+
+    <plurals name="n_caracteres">
+        <item quantity="one">%d carácter</item>
+        <item quantity="other">%d caracteres</item>
+    </plurals>
+
+    <string-array name="opciones_boton_modo">
+        <item>Siempre visible</item>
+        <item>Solo en los juegos elegidos</item>
+        <item>Oculto</item>
+    </string-array>
+
+    <string-array name="opciones_boton_tam">
+        <item>Pequeño</item>
+        <item>Mediano</item>
+        <item>Grande</item>
+    </string-array>
+
+    <string-array name="opciones_accion_acc">
+        <item>Encender o apagar el lector</item>
+        <item>Leer la pantalla ahora</item>
+        <item>Ir al elemento siguiente</item>
+        <item>Tocar el elemento elegido</item>
+        <item>Explorar con el dedo</item>
+        <item>Repetir lo último</item>
+    </string-array>
+
+    <string-array name="opciones_idioma">
+        <item>Español (automático)</item>
+        <item>Español (España)</item>
+        <item>Español (México)</item>
+        <item>Español (Estados Unidos)</item>
+        <item>Español (Argentina)</item>
+        <item>Inglés (Estados Unidos)</item>
+        <item>Idioma del teléfono</item>
+    </string-array>
+
+    <string-array name="opciones_salida">
+        <item>Voz propia (motor de voz predeterminado)</item>
+        <item>Enviar al lector del sistema, como TalkBack (experimental)</item>
+    </string-array>
+
+    <string-array name="opciones_fuente">
+        <item>Texto del juego y reconocimiento en captura (recomendado)</item>
+        <item>Solo reconocimiento en captura (OCR)</item>
+        <item>Solo texto que ofrece el juego</item>
+    </string-array>
+
+    <string-array name="opciones_zona">
+        <item>Toda la pantalla</item>
+        <item>Mitad superior</item>
+        <item>Mitad inferior</item>
+        <item>Tercio inferior (subtítulos)</item>
+        <item>Centro</item>
+    </string-array>
+
+
+    <!-- Explorar y tocar -->
+    <string name="boton_anterior">Elemento anterior</string>
+    <string name="boton_siguiente">Elemento siguiente</string>
+    <string name="boton_tocar">Tocar el elemento</string>
+    <string name="hablar_primer_elemento">Es el primer elemento.</string>
+    <string name="hablar_ultimo_elemento">Es el último elemento.</string>
+    <string name="hablar_n_de_total">%1$d de %2$d</string>
+    <string name="hablar_elige_elemento">Primero elige un elemento con siguiente o anterior.</string>
+    <string name="hablar_no_toca">No pude tocar la pantalla.</string>
+    <string name="hablar_exploracion_on">Exploración activada. Un dedo explora, dos toques pulsan, dos dedos deslizan.</string>
+    <string name="hablar_exploracion_off">Exploración desactivada.</string>
+    <string name="hablar_nada_que_repetir">No hay nada que repetir.</string>
+    <string name="boton_explorar">Explorar con el dedo</string>
+    <string name="boton_explorar_off">Dejar de explorar con el dedo</string>
+    <string name="exploracion_ventana">Exploración con el dedo</string>
+    <string name="aj_idioma_auto">Cambiar de voz según el idioma del texto</string>
+    <string name="aj_idioma_auto_desc">Si un texto está en otro idioma (por ejemplo, un juego en inglés) y tienes instalada la voz de ese idioma, se usa para ese texto.</string>
+
+    <string-array name="posiciones">
+        <item>arriba a la izquierda</item>
+        <item>arriba</item>
+        <item>arriba a la derecha</item>
+        <item>a la izquierda</item>
+        <item>en el centro</item>
+        <item>a la derecha</item>
+        <item>abajo a la izquierda</item>
+        <item>abajo</item>
+        <item>abajo a la derecha</item>
+    </string-array>
+
+    <string name="sec_explorar">Explorar y tocar</string>
+    <string name="aj_panel_modo">Botones flotantes</string>
+    <string name="aj_posicion">Decir dónde está cada texto</string>
+    <string name="aj_teclas">Usar las teclas de volumen en los juegos</string>
+    <string name="aj_teclas_desc">Con el lector encendido y dentro de un juego elegido: subir volumen = elemento siguiente, bajar = elemento anterior. Manteniendo, subir = tocar el elemento y bajar = leer toda la pantalla. Mientras tanto, esas teclas no cambian el volumen.</string>
+    <string name="aj_ocr_detalle">Detalle del reconocimiento de texto</string>
+
+    <string-array name="opciones_panel_modo">
+        <item>Básico: apagar y leer</item>
+        <item>Completo: con explorar y tocar</item>
+    </string-array>
+
+    <string-array name="opciones_posicion">
+        <item>Nunca</item>
+        <item>Solo al explorar</item>
+        <item>Siempre</item>
+    </string-array>
+
+    <string-array name="opciones_ocr_detalle">
+        <item>Bloques de texto (recomendado)</item>
+        <item>Líneas sueltas (para menús con opciones pegadas)</item>
+    </string-array>
+
+    <!-- Ajustes de cada juego -->
+    <string name="perfil_titulo">Ajustes de este juego</string>
+    <string name="perfil_intro">Solo para %1$s. «Usar el ajuste general» deja el valor de Ajustes.</string>
+    <string name="perfil_usar_general">Usar el ajuste general</string>
+    <string name="perfil_zona">Zona de la pantalla</string>
+    <string name="perfil_intervalo">Revisar la pantalla cada</string>
+    <string name="perfil_auto">Lectura automática</string>
+    <string name="perfil_guardar">Guardar</string>
+    <string name="juego_con_perfil">ajustes propios</string>
+
+    <string-array name="perfil_opciones_intervalo">
+        <item>Usar el ajuste general</item>
+        <item>1 segundo</item>
+        <item>2 segundos</item>
+        <item>3 segundos</item>
+        <item>5 segundos</item>
+        <item>8 segundos</item>
+    </string-array>
+
+    <string-array name="perfil_opciones_auto">
+        <item>Usar el ajuste general</item>
+        <item>Sí</item>
+        <item>No</item>
+    </string-array>
+
+    <!-- Resumen de estado -->
+    <string name="sec_estado">Estado</string>
+    <string name="res_servicio_si">Servicio de accesibilidad: activado</string>
+    <string name="res_servicio_no">Servicio de accesibilidad: sin activar</string>
+    <string name="res_voz_comprobando">Voz del sistema: comprobando…</string>
+    <string name="res_voz_si">Voz del sistema: lista</string>
+    <string name="res_voz_no">Voz del sistema: no disponible</string>
+    <string name="res_ocr_si">Reconocimiento de texto en capturas: disponible</string>
+    <string name="res_ocr_no">Reconocimiento de texto en capturas: no disponible, necesita Android 11 o superior</string>
+
+    <plurals name="n_juegos">
+        <item quantity="one">%d juego elegido</item>
+        <item quantity="other">%d juegos elegidos</item>
+    </plurals>
+
+    <!-- Guía de uso -->
+    <string name="guia_titulo">Guía de uso</string>
+    <string name="guia_texto">1. Activa el servicio. Ajustes de Android > Accesibilidad > Game-Reader. Si el interruptor sale atenuado (Android 13 o superior, app instalada desde un archivo), usa el botón «permitir ajustes restringidos» de la pantalla principal: abre la información de la app, toca los tres puntos de arriba a la derecha y elige «Permitir ajustes restringidos». Después vuelve y actívalo.\n\n2. Elige tus juegos en «Elegir juegos». La primera vez se marcan los que Android reconoce como juegos. Mantén pulsado un juego para darle ajustes propios.\n\n3. Abre un juego. Oirás su nombre y, a partir de ahí, el lector dirá el texto nuevo que aparezca: menús, diálogos, subtítulos… Si el texto está en otro idioma y tienes esa voz instalada, la usa.\n\n4. Explorar y tocar con los botones. Las flechas del panel flotante te dicen cada texto de la pantalla, dónde está (por ejemplo, «abajo a la derecha») y cuántos hay. El botón del círculo toca el elemento elegido y después el lector dice lo que cambia. Solo toca cuando tú lo pides.\n\n5. Explorar con el dedo. Pulsa la lupa del panel (o las dos teclas de volumen a la vez, si las activaste). Un dedo lee lo que hay debajo; dos toques seguidos pulsan; dos dedos deslizan dentro del juego; un toque con dos dedos repite lo último. Mientras está activa, el juego no recibe toques directos; vuelve a pulsar la lupa para salir. Úsala sin TalkBack o con TalkBack suspendido.\n\n6. Sin mirar la pantalla. En Ajustes puedes activar las teclas de volumen en los juegos: subir = siguiente elemento, bajar = anterior; manteniendo, subir = tocar y bajar = leer toda la pantalla.\n\n7. Apagar o encender sin salir del juego: el botón de arriba del panel flotante (verde = encendido), el mosaico «Game-Reader» de los ajustes rápidos (hay que añadirlo en el modo de edición del panel), el botón de accesibilidad de la barra de navegación si tu teléfono lo ofrece, o esta app.\n\n8. Si usas TalkBack, déjalo activado: este lector solo habla en los juegos elegidos. Si TalkBack impide jugar con los toques, suspéndelo desde su propio menú mientras juegas; este lector seguirá funcionando.\n\n9. Si habla demasiado, elige una zona de la pantalla (por ejemplo, el tercio inferior para los subtítulos), alarga el intervalo, sube el tamaño mínimo del texto o apaga la lectura automática y usa «Leer la pantalla ahora».\n\nLímites: el reconocimiento de texto en capturas no es perfecto y gasta batería; los juegos con pantalla protegida no se pueden capturar; no describe imágenes ni la acción del juego.</string>
+<string name="sec_sonidos">Sonidos</string>
+<string name="aj_sonidos">Sonidos del lector</string>
+<string name="aj_sonidos_desc">Avisos cortos para saber qué pasa sin mirar la pantalla. Suenan por la salida de accesibilidad y no pisan al juego.</string>
+<string name="aj_sonidos_estilo">Estilo de los sonidos</string>
+<string-array name="opciones_sonidos_estilo">
+<item>Suave</item>
+<item>Retro (8 bits)</item>
+<item>Cristal</item>
+</string-array>
+<string name="aj_sonidos_vol">Volumen de los sonidos</string>
+<string name="aj_sonidos_estado">Avisos de encender, apagar y explorar</string>
+<string name="aj_sonidos_posicion">Sonido al explorar con posición</string>
+<string name="aj_sonidos_posicion_desc">Cada elemento suena a la izquierda o a la derecha según dónde esté, y más agudo cuanto más arriba. Funciona mejor con auriculares.</string>
+<string name="aj_sonidos_acciones">Sonidos al tocar y de error</string>
+<string name="aj_sonidos_nuevo">Un sonido al aparecer texto nuevo</string>
+<string name="aj_sonidos_nuevo_desc">Suena justo antes de leerlo. Útil en juegos lentos; en los rápidos puede cansar.</string>
+<string name="aj_sonidos_probar">Probar los sonidos</string>
+</resources>

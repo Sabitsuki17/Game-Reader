@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="acento">#00796B</color>
+    <color name="acento_noche">#4DB6AC</color>
+    <color name="verde">#2E7D32</color>
+    <color name="rojo">#B71C1C</color>
+    <color name="azul">#1565C0</color>
+    <color name="gris">#546E7A</color>
+    <color name="morado">#6A1B9A</color>
+    <color name="naranja">#E65100</color>
+    <color name="ic_launcher_background">#00796B</color>
+</resources>

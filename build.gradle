@@ -1,0 +1,43 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.gamereader.app'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'com.gamereader.app'
+        minSdk 26
+        targetSdk 34
+        versionCode Integer.parseInt(String.valueOf(project.findProperty('vc') ?: '1'))
+        versionName String.valueOf(project.findProperty('vn') ?: '1.0')
+        // Solo CPUs de móviles reales (el OCR incluye librerías nativas por arquitectura).
+        ndk {
+            abiFilters 'arm64-v8a', 'armeabi-v7a'
+        }
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    lint {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+}
+
+dependencies {
+    // OCR local (sin internet) para leer el texto de juegos que no son accesibles.
+    implementation 'com.google.mlkit:text-recognition:16.0.1'
+}
